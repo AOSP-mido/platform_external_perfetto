@@ -1255,6 +1255,9 @@ cc_defaults {
     debuggable: {
       cflags: ["-DPERFETTO_BUILD_WITH_ANDROID_USERDEBUG"],
     },
+    has_memfd_backport: {
+      cflags: ["-DHAS_MEMFD_BACKPORT"],
+    },
   },
   target: {
     android: {
